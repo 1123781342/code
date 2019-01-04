@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+}
+	.box{
+		width: 1000px;
+		height: 202px;
+		border: 1px solid;
+		box-sizing:border-box;
+		display: flex;
+		/*flex-start:让子元素从父容器的起始位置开始排列;
+		flex-end:让子 元素的父容器的结束位置开始排列*/
+		justify-content: space-around;
+	}
+	.first{
+		width: 200px;
+		height: 200px;
+	}
+	.a{
+		background-color: red;
+	}
+	.b{
+		background-color: pink;
+	}
+	.c{
+		background-color: yellow;
+	}
+	.d{
+		background-color: green;
+	}
+</style>
+<body>
+<div class="box">
+	<div class="first a"></div>
+	<div class="first b"></div>
+	<div class="first c"></div>
+	<div class="first d"></div>
+</div>
+	
+</body>
+</html>
